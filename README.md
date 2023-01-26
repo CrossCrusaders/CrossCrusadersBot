@@ -1,4 +1,4 @@
-<img src="./README/banner.png"/>
+<img src="./README/banner.png" width="100%"/>
 
 <div align="center">
     <a href="https://discord.gg/3BdrYPtE38"><img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=Discord&logoColor=white"/></a>
