@@ -1,10 +1,7 @@
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord.js");
 const fs = require("fs");
-require('dotenv').config();
-
-const token = process.env.Bot_Token;
-const id = process.env.Bot_ID;
+const env = require("../../../env.json");
 
 module.exports = (client) => {
   client.handleCommands = async () => {
@@ -24,12 +21,12 @@ module.exports = (client) => {
 
     const commandsLoading = client.commandArray.map(command => command.toJSON());
 
-    const rest = new REST({ version: 10 }).setToken(token);
+    const rest = new REST({ version: 10 }).setToken(env.Bot_Token);
     try {
       console.log('Started refreshing application {/} commands.');
 
       await rest.put(
-        Routes.applicationCommands(id), {
+        Routes.applicationCommands(env.Bot_ID), {
         body: commandsLoading,
       })
     } catch (err) {

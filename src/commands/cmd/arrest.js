@@ -1,8 +1,6 @@
 const { EmbedBuilder, PermissionFlagsBits } = require('discord.js');
 const { SlashCommandBuilder } = require("discord.js");
-require('dotenv').config();
-
-const ArrestRoleID = process.env.Arrest_Role_ID;
+const env = require("../../../env.json");
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -40,7 +38,7 @@ module.exports = {
       await userS.send({ embeds: [Embed] })
         .catch((err) => {})
 
-      await member.roles.add(member.guild.roles.cache.get(ArrestRoleID));
+      await member.roles.add(member.guild.roles.cache.get(env.Arrest_Role_ID));
 
       if(!interaction.replied){
         let Embed2 = new EmbedBuilder()

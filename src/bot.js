@@ -1,8 +1,6 @@
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
 const fs = require("fs");
-require('dotenv').config();
-
-const token = process.env.Bot_Token;
+const env = require("../env.json");
 
 const client = new Client({
   intents: [
@@ -31,4 +29,4 @@ client.handleEvents();
 client.handleCommands();
 client.handleComponents();
 
-client.login(token);
+client.login(env.Bot_Token);

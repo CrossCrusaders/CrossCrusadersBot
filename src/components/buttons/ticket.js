@@ -1,13 +1,12 @@
 const { ChannelType, PermissionFlagsBits } = require("discord.js")
-require('dotenv').config();
-const guildID = process.env.Guild_ID;
+const env = require("../../../env.json");
 
 module.exports = {
     data: {
         name: "ticket"
     },
     async execute(interaction, client){
-        var category = await interaction.guild.channels.cache.get("898390460308009041");
+        var category = await interaction.guild.channels.cache.get(env.Ticket_Category_ID);
         var random = Math.random().toString(16);
         var channel = await category.children.create({
             name: `Help ${random}`,
@@ -18,7 +17,7 @@ module.exports = {
                     allow: [PermissionFlagsBits.ViewChannel],
                 },
                 {
-                    id: interaction.guild.roles.cache.get("765902576545693716"),
+                    id: interaction.guild.roles.cache.get(env.Staff_Role_ID),
                     allow: [PermissionFlagsBits.ViewChannel],
                 },
                 {

@@ -1,0 +1,138 @@
+{
+    "Bot_Token": "",
+    "Bot_ID": "967810428480667709",
+    "Guild_ID": "765706818096726057",
+    "Roles_Channel_ID": "765899079120191498",
+    "Ticket_Channel_ID": "898390811421581352",
+    "Ticket_Category_ID": "898390460308009041",
+    "Arrest_Role_ID": "811778658141995029",
+    "Member_Role_ID": "871160434198212668",
+    "Announcement_Role_ID": "768158926184906792",
+    "Staff_Role_ID": "765902576545693716",
+    "Christian?": [
+        {
+            "label": "Christian",
+            "value": "766299198998970438"
+        },
+        {
+            "label": "Non-Christian",
+            "value": "767221068929695764"
+        }
+    ],
+    "Denominations": [
+        {
+            "label": "Independent Fundamental Baptist",
+            "value": "984919273707286588"
+        },
+        {
+            "label": "Non-denominational",
+            "value": "984916020085018644"
+        },
+        {
+            "label": "Roman Catholic",
+            "value": "984917372064383046"
+        },
+        {
+            "label": "Orthodox",
+            "value": "984917964216217671"
+        },
+        {
+            "label": "Protestant",
+            "value": "984918245083578388"
+        },
+        {
+            "label": "Southern Baptist",
+            "value": "984919242795278358"
+        },
+        {
+            "label": "New Independent Fundamental Baptist",
+            "value": "984919313968410624"
+        },
+        {
+            "label": "Reformed Baptist",
+            "value": "984919354812551188"
+        },
+        {
+            "label": "Calvinist",
+            "value": "984919378661351434"
+        },
+        {
+            "label": "Church of Christ",
+            "value": "984919397401514024"
+        },
+        {
+            "label": "Evangelical",
+            "value": "984919448148394014"
+        },
+        {
+            "label": "Jehovah's Witness",
+            "value": "984919467224088636"
+        },
+        {
+            "label": "Lutheran",
+            "value": "984919501541896252"
+        },
+        {
+            "label": "Methodist",
+            "value": "984919522173673594"
+        },
+        {
+            "label": "Mormon",
+            "value": "984919541803008060"
+        },
+        {
+            "label": "Pentecostal",
+            "value": "984919571679043664"
+        },
+        {
+            "label": "Presbyterian",
+            "value": "984919653925142650"
+        },
+        {
+            "label": "Quaker",
+            "value": "984919687165018134"
+        },
+        {
+            "label": "Wesleyan",
+            "value": "984919709805842452"
+        },
+        {
+            "label": "Assemblies of God",
+            "value": "984919817389735986"
+        },
+        {
+            "label": "Messianic Judaism",
+            "value": "984919839762174013"
+        },
+        {
+            "label": "Charismatic",
+            "value": "984919872284794930"
+        },
+        {
+            "label": "Traditionalist",
+            "value": "984919894959202454"
+        },
+        {
+            "label": "Restorationism",
+            "value": "984919735227535430"
+        },
+        {
+            "label": "Episcopal",
+            "value": "984919425314619392"
+        }
+    ],
+    "Assignable_Roles": [
+        {
+            "label": "Bible Study",
+            "value": "767064043697078282"
+        },
+        {
+            "label": "Hymn Night",
+            "value": "767064004572872725"
+        },
+        {
+            "label": "Prayer Night",
+            "value": "767063981663059999"
+        }
+    ]
+}

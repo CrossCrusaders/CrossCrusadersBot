@@ -1,6 +1,4 @@
-const Discord = require("discord.js");
 const { EmbedBuilder, PermissionFlagsBits } = require('discord.js');
-
 const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
