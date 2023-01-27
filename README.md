@@ -19,7 +19,7 @@ As a developer for Cross Crusaders, I had the opportunity to help out the Discor
 9. Back in the Developer Portal, copy the application ID of your application.
 10. Paste that in the `.env` file as the variable `Bot_ID`.
 11. Set all the other variables to work with your server. (Variables that need changed can be found in many files throughout the bot's code. All of the IDs outside of the `.env` file are just role IDs that will need changed)
-12. Back in CMD/Terminal, run `npm i` and `npm start`.
+12. Back in CMD/Terminal, run `npm i`, `npm run setup`, and `npm start`.
 13. Your bot is now running!
 
 # Issues?
