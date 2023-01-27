@@ -1,6 +1,6 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
+  "name": "cross-crusaders-bot",
+  "version": "1.0.1",
   "description": "",
   "main": "src/bot.js",
   "scripts": {

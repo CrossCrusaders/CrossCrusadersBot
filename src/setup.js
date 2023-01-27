@@ -46,7 +46,7 @@ async function sendRolesGroups(channel){
     .setDescription("Select below to add roles.")
     .setColor("#c3e1e1")
   const menu = new StringSelectMenuBuilder()
-    .setCustomId("christian")
+    .setCustomId("groups")
     .setMaxValues(1)
     .setMinValues(1)
     .setPlaceholder("Please Make a Selection")
