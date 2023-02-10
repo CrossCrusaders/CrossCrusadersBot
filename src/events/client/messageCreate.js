@@ -1,10 +1,10 @@
 const env = require("../../../env.json");
 
 var admin = require("firebase-admin");
-var serviceAccount = require("../../../scripture-alone-notifications.json");
+var serviceAccount = require(`../../../${env.Firebase_Login_File}`);
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    projectId: env.FirebaseProjectID
+    projectId: env.Firebase_Project_ID
 });
 
 const topicName = 'industry-tech';
